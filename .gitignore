@@ -1,0 +1,30 @@
+# Arquivos e diretórios específicos do ambiente Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Diretórios de dependências e virtual environments
+venv/
+env/
+env2/
+.env/
+
+# Logs e arquivos de saída
+*.log
+*.swp
+*.swo
+*.pyc
+*.bak
+*.tmp
+
+# Arquivos gerados automaticamente
+/.vscode
+/.idea
+.DS_Store
+
+# Arquivos de configuração locais
+config.ini
+
+# Arquivos de credenciais
+credentials.json
