@@ -8,7 +8,7 @@ http = urllib3.PoolManager(
     ca_certs=certifi.where()
 )
 
-def buscar_cep(cep):
+def pesquisar_endereco(cep):
     """
     Busca informações de endereço usando um serviço web de consulta de CEP.
 
@@ -30,7 +30,7 @@ def buscar_cep(cep):
           - siafi: O código SIAFI da cidade.
 
     Exemplo de uso:
-    >>> endereco = buscar_cep("12345-678")
+    >>> endereco = pesquisar_endereco("12345-678")
     >>> print(endereco['logradouro'])
     "Rua Exemplo"
     >>> print(endereco['localidade'])

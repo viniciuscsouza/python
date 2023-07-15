@@ -2,7 +2,7 @@ import tkinter
 from tkinter import ttk
 from tkinter.messagebox import showinfo
 from tkinter.scrolledtext import ScrolledText
-from backend.api import buscar_cep as pesquisar_endereco, pesquisar_cep
+from backend.api import pesquisar_endereco, pesquisar_cep
 
 
 class Aplicativo(tkinter.Tk):
